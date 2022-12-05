@@ -1,0 +1,17 @@
+the self "like this in c++" variable represents the instance of the object itself. Most object-oriented languages pass this as a hidden parameter to the methods defined on an object; Python does not. You have to declare it explicitly. 
+
+The __init__ method is roughly what represents a constructor in Python, it gets called after memory for the object is allocated
+
+
+class MyClass(object):
+    i = 123
+    def __init__(self):
+        self.i = 345
+     
+a = MyClass()
+print(a.i) //345
+print(MyClass.i) //123
+
+
+In Python, there is no need for importing external library to read and write files. Python provides an inbuilt function for creating, writing, and reading files.
+

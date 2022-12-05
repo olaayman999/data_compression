@@ -1,0 +1,7 @@
+Heap => complete binary trees => left then right
+left(i)=2i+1  right(i)=2i+2  patent(i)= i/2 "round down"
+Heap types --min heap =>decinding 
+           --max heap =>ascending parent >= children
+heapify: the process of creating a heap data structure from a binary tree. It is used to create a Min-Heap or a Max-Heap
+
+if you have a binary tree and want to convert it into arraym fill the array level by level from left to right up to down or use the formulas above, if a parent doesnt have children fill with - - 
